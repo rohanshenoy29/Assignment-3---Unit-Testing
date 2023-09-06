@@ -30,7 +30,6 @@ app.get("/users/:name", async (req, res) => {
   try {
     const name = req.params.name;
     const result = await User.find({ name });
-    console.log(result.length);
     if (result.length === 0) {
       res.status(400).send("User Not Found ");
       logger.error(
@@ -63,11 +62,16 @@ app.post("/users", async (req, res) => {
 app.delete("/users/:name", async (req, res) => {
   try {
     const name = req.params.name;
-    const result = await User.deleteOne({ name });
+    const result = await User.findOneAndDelete({ name });
+    if (result === null){
+        res.status(400).send("User Not Found")
+    }
+    else{
     res.status(200).send(result);
     logger.info(
       `Successfully Deleted User with name = ${name} : DELETE request`
     );
+    }
   } catch (e) {
     res.status(400).send(e);
     logger.error("Unable to delete user : Error in DELETE request");
@@ -95,7 +99,7 @@ app.put("/users/:name", async (req, res) => {
       },
       { new: true }
     );
-    console.log(updatedUser);
+    // console.log(updatedUser);
     if (updatedUser === null) {
       res.status(200).send("User Not Found");
       logger.error(`User not found with name = ${name} : Unable to UPDATE`);

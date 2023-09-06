@@ -1,0 +1,46 @@
+2023/09/06 09:55:36 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 09:57:36 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 09:57:37 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 09:57:57 : info : Successfully Fetched User data with name = test_user
+2023/09/06 09:58:01 : info : Successfully Fetched all User data
+2023/09/06 09:58:16 : info : Successfully Deleted User with name = deon12 : DELETE request
+2023/09/06 10:01:29 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 10:04:35 : info : Successfully Deleted User with name = kaushik9845 : DELETE request
+2023/09/06 10:06:34 : info : Connected to MongoDB
+2023/09/06 10:07:33 : info : Successfully Fetched all User data
+2023/09/06 10:07:42 : info : Successfully Deleted User with name = kaushik9845 : DELETE request
+2023/09/06 10:08:43 : info : Connected to MongoDB
+2023/09/06 10:09:15 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 10:10:59 : info : Connected to MongoDB
+2023/09/06 10:13:33 : info : Connected to MongoDB
+2023/09/06 10:13:45 : info : Connected to MongoDB
+2023/09/06 10:14:27 : info : Connected to MongoDB
+2023/09/06 10:14:35 : info : Successfully Fetched User data with name = test_user
+2023/09/06 10:15:31 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 10:17:01 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 10:17:52 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 10:18:26 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 10:18:32 : info : Connected to MongoDB
+2023/09/06 10:18:39 : info : Successfully Fetched all User data
+2023/09/06 10:18:52 : info : Successfully Deleted User with name = test_user : DELETE request
+2023/09/06 10:19:42 : error : User not found with the name test_user : Error in GET request
+2023/09/06 10:19:46 : info : Successfully Fetched all User data
+2023/09/06 10:19:56 : info : Successfully Deleted User with name = kaushik2222 : DELETE request
+2023/09/06 10:20:03 : info : Connected to MongoDB
+2023/09/06 10:20:12 : info : Successfully Fetched all User data
+2023/09/06 10:20:20 : info : Successfully Deleted User with name = rohan shenoy : DELETE request
+2023/09/06 10:29:13 : error : User not found with name = kdjflkajfl : Unable to UPDATE
+2023/09/06 10:29:21 : info : Successfully Deleted User with name = kdjflkajfl : DELETE request
+2023/09/06 10:30:57 : info : Successfully Deleted User with name = kdjflkajfl : DELETE request
+2023/09/06 10:31:48 : info : Successfully Deleted User with name = kdjflkajfl : DELETE request
+2023/09/06 10:31:53 : info : Connected to MongoDB
+2023/09/06 10:32:07 : info : Successfully Deleted User with name = kdjflkajfl : DELETE request
+2023/09/06 10:32:49 : info : Successfully Deleted User with name = kdjflkajfl : DELETE request
+2023/09/06 10:32:57 : info : Connected to MongoDB
+2023/09/06 10:33:09 : info : Successfully Fetched all User data
+2023/09/06 10:33:21 : info : Successfully Deleted User with name = updated_test_user : DELETE request
+2023/09/06 10:33:36 : error : User not found with the name updated_test_user : Error in GET request
+2023/09/06 10:33:41 : info : Successfully Fetched all User data
+2023/09/06 10:34:27 : info : Successfully Created User : POST request
+2023/09/06 10:34:37 : info : Successfully Created User : POST request
+2023/09/06 10:34:43 : info : Successfully Created User : POST request
